@@ -187,7 +187,7 @@ Postman `GET /api/tasks/{id}` lấy cùng 1 Task (cùng `phienBan`), sửa và l
 trước (`PUT`) — sau đó thử lưu request 2 (đang cầm `phienBan` cũ) — xác nhận nhận được lỗi
 **409** với thông báo "Task đã bị người khác cập nhật..." thay vì ghi đè âm thầm.
 
-##  Code Example (repo `java.git`)
+## 💻 Code Example (repo `java.git`)
 
 > Xem nguyên các file tại branch `JPA-Auditing--Optimistic-Locking`:
 > [`JpaAuditingConfig.java`](https://github.com/SangLeSoftZ/java/blob/JPA-Auditing--Optimistic-Locking/src/main/java/com/example/demo/config/JpaAuditingConfig.java) ·
